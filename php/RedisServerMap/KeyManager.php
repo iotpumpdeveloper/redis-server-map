@@ -24,7 +24,7 @@ class KeyManager
     /**
      * set value to key
      */
-    public function set($value)
+    public function setKeyValue($value)
     {
         $this->redis->set($this->key, $value);
     }
@@ -32,7 +32,7 @@ class KeyManager
     /**
      * get the key value
      */
-    public function value()
+    public function getKeyValue()
     {
         return $this->redis->get($this->key);
     }

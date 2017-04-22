@@ -24,5 +24,5 @@ $redisServerMap = new RedisServerMap\RedisServerMap($map);
 $key = "superjim";
 
 $keyManager = $redisServerMap->getKeyManagerFor($key);
-$keyManager->set("2");
-print $keyManager->value()."\n";
+$keyManager->setKeyValue("2");
+print $keyManager->getKeyValue()."\n";
