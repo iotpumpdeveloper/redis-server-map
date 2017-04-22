@@ -17,12 +17,12 @@
     "repositories": [
         {
             "type": "git",
-            "url":  "https://github.com/iotpumpdeveloper/keydistributor"
+            "url":  "https://github.com/iotpumpdeveloper/redis-server-map"
         }
     ],
     "autoload": {
         "psr-0": {
-            "KeyDistributor": "php"
+            "RedisServerMap": "php"
         }
     },
     "extra": {
